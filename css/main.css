@@ -79,7 +79,7 @@ body {
 	height: 40px;
 	margin-right: 10px;
 }
-.user__avatar__wrapper {
+.avatar_wrapper {
 	overflow: hidden;
 	border-radius: 100%;
 	border: 2px solid #FFF;
@@ -115,7 +115,7 @@ body {
 	padding: 8px;
 	justify-content: space-between;
 }
-.card__header__user {
+.header_user {
 	display: flex;
 	align-items: center;
 }
@@ -131,11 +131,12 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 }
-.card__nav__item {
+.card__nav-item {
 	font-size: 1.6em;
 	margin: 5px 10px;
+	color: #000;
 }
-.card__nav__item:last-child {
+.card__nav-item:last-child {
 	justify-self: flex-end;
 	margin-left: auto;
 }
